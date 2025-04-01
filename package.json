@@ -1,0 +1,45 @@
+{
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.17",
+    "@tanstack/eslint-plugin-query": "^5.68.0",
+    "@tanstack/router-devtools": "^1.65.0",
+    "@tanstack/router-plugin": "^1.65.0",
+    "@types/react": "^19.0.12",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.1",
+    "globals": "^15.9.0",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "sass": "^1.86.0",
+    "tailwindcss": "^4.0.17",
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.17",
+    "@tanstack/react-router": "^1.114.29",
+    "lodash.shuffle": "^4.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "name": "react-app-ts",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "scripts": {
+    "coverage": "vitest --coverage",
+    "build": "vite build",
+    "dev": "vite",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "Marius",
+  "license": "ISC",
+  "description": "React-app"
+}
