@@ -1,0 +1,30 @@
+.active {
+  color: #979208;
+}
+
+.inactive {
+  color: #000000;
+}
+
+.star-rating-container {
+  .star-rating {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 5rem;
+    cursor: pointer;
+    justify-content: center;
+  }
+
+  .star {
+    color: #ccc; // Default star color
+    transition: color 0.2s ease-in-out;
+  }
+
+  .star.filled {
+    color: #f1ec61; // Filled star color
+  }
+  .rate-me {
+    font-size: 3rem;
+    text-align: center;
+  }
+}

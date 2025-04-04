@@ -44,6 +44,15 @@ function Index() {
           <Link to="/textAs">Text As</Link>
         </li>
         <li>
+          <Link to="/accordionText">Accordion text</Link>
+        </li>
+        <li>
+          <Link to="/starRating">Star Rating</Link>
+        </li>
+        <li>
+          <Link to="/truncateText">Truncate text</Link>
+        </li>
+        <li>
           <Link to="/truncateText">Truncate text</Link>
         </li>
       </ul>
