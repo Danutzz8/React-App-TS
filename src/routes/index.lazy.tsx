@@ -50,10 +50,31 @@ function Index() {
           <Link to="/starRating">Star Rating</Link>
         </li>
         <li>
-          <Link to="/truncateText">Truncate text</Link>
+          <Link to="/imageSlider">Image Slider</Link>
+        </li>
+        <li>
+          <Link to="/loadMore">Load More</Link>
+        </li>
+        <li>
+          <Link to="/treeViewMenu">Tree View Menu</Link>
+        </li>
+        <li>
+          <Link to="/qrCodeGenerator">QR Code Generator</Link>
+        </li>
+        <li>
+          <Link to="/scrollBarIndicator">Scroll Bar Indicator</Link>
         </li>
         <li>
           <Link to="/truncateText">Truncate text</Link>
+        </li>
+        <li>
+          <Link to="/truncateText">NExt</Link>
+        </li>
+        <li>
+          <Link to="/truncateText">NExt</Link>
+        </li>
+        <li>
+          <Link to="/truncateText">NExt</Link>
         </li>
       </ul>
     </div>

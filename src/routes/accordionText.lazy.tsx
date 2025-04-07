@@ -7,5 +7,5 @@ export const Route = createLazyFileRoute('/accordionText')({
 })
 
 function RouteComponent() {
-  return <div><AccordionText /></div>
+  return <div className='pt-40'><AccordionText /></div>
 }

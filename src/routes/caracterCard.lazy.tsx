@@ -11,7 +11,7 @@ const CharacterInformationWithCharacter = CharacterCard(CharacterInformation);
 
 function RouteComponent() {
   return (
-    <div className='character-card p-4'>
+    <div className='character-card p-4 pt-40'>
       <main>
          <CharacterInformationWithCharacter />
       </main>

@@ -17,7 +17,7 @@ function DogFacts() {
   };
 
   return (
-    <div className='dog-facts-main p-4'>
+    <div className='dog-facts-main pt-40'>
         <main className=''>
             <Form onSubmit={handleSubmit} />
             <section>

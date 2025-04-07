@@ -7,5 +7,5 @@ export const Route = createLazyFileRoute('/starRating')({
 })
 
 function RouteComponent() {
-  return <div><StarRating /></div>
+  return <div className='pt-40'><StarRating /></div>
 }

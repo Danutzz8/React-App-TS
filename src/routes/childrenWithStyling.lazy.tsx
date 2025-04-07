@@ -7,5 +7,5 @@ export const Route = createLazyFileRoute('/childrenWithStyling')({
 })
 
 function RouteComponent() {
-  return <ShowBox />
+  return <div className='pt-40'><ShowBox /></div>
 }

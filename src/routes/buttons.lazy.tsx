@@ -9,7 +9,7 @@ export const Route = createLazyFileRoute('/buttons')({
 
 function RouteComponent() {
   return (
-    <div className='buttonss p-4 lg:p-0'>
+    <div className='buttonss p-4 lg:p-0 pt-40 lg:pt-40'>
       <main>
         <Button primary>Primary</Button>
         <Button secondary>Secondary</Button>

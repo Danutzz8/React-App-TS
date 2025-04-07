@@ -21,7 +21,7 @@ function ShowRGBComponent() {
   };
 
   return (
-    <div className="rgb-component">
+    <div className="rgb-component pt-40">
       <main
         style={{
           ...themes[theme],

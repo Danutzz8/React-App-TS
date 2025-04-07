@@ -14,7 +14,7 @@ function RouteComponent() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
-    <div className="pizza-calculator p-4 lg:p-0">
+    <div className="pizza-calculator p-4 lg:p-0 pt-40 lg:pt-40">
       <main className="calculator">
         <header>
           <h1>Pizza Calculator</h1>

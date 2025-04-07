@@ -9,10 +9,12 @@ export const Route = createLazyFileRoute('/quizz')({
 
 function RouteComponent() {
   return (
-     <main className='p-4 lg:p-0'>
-       {questions.map((q) => (
-         <Question question={q.question} answer={q.answer} key={q.id} />
-       ))}
-     </main>
+    <div className='p-4 lg:p-0 pt-40 lg:pt-40'>
+      <main>
+        {questions.map((q) => (
+          <Question question={q.question} answer={q.answer} key={q.id} />
+        ))}
+      </main>
+    </div>
    );
 }

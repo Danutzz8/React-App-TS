@@ -3,7 +3,7 @@ import { Link } from "@tanstack/react-router";
 
 export default function Header() {
   return (
-    <nav>
+    <nav className="fixed top-0 left-0 right-0 flex justify-between items-center bg-white">
       <Link to={"/"}>
         <span className="logo"></span>
         <h1 className="title">React Projects</h1>

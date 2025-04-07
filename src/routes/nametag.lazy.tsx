@@ -8,7 +8,7 @@ export const Route = createLazyFileRoute('/nametag')({
 
 function ShowNameTag() {
   return (
-    <div className="flex flex-row gap-4 p-6 bg-gray-100 rounded-lg">
+    <div className="flex flex-row gap-4 p-6 bg-gray-100 rounded-lg pt-40">
       <NameTag name="Steve" greeting="Salutations" />
       <NameTag name="John" greeting="Ola" />
       <NameTag name="Mark" greeting="Hey" />

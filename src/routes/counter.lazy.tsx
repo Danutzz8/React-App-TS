@@ -7,5 +7,5 @@ export const Route = createLazyFileRoute('/counter')({
 })
 
 function RouteComponent() {
-  return <Counter /> 
+  return <div className='pt-40'><Counter /></div> 
 }
