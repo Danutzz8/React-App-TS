@@ -68,13 +68,25 @@ function Index() {
           <Link to="/truncateText">Truncate text</Link>
         </li>
         <li>
-          <Link to="/truncateText">NExt</Link>
+          <Link to="/customTabs">Custom Tabs</Link>
         </li>
         <li>
-          <Link to="/truncateText">NExt</Link>
+          <Link to="/customModal">Custom Modal</Link>
         </li>
         <li>
-          <Link to="/truncateText">NExt</Link>
+          <Link to="/gitHubProfile">Git-hub Profile</Link>
+        </li>
+        <li>
+          <Link to="/searchSuggestions">Search Suggestions</Link>
+        </li>
+        <li>
+          <Link to="/ticTactToe">X & O</Link>
+        </li>
+        <li>
+          <Link to="/testFile">NExt</Link>
+        </li>
+        <li>
+          <Link to="/testFile">NExt</Link>
         </li>
       </ul>
     </div>
