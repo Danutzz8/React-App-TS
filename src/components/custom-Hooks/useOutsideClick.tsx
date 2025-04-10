@@ -25,3 +25,30 @@ function useOutsideClick<T extends HTMLElement>(
 }
 
 export default useOutsideClick;
+
+//use case
+
+// import React, { useRef, useState } from "react";
+// import useOutsideClick from "./useOutsideClick";
+
+// const Dropdown: React.FC = () => {
+//   const [isOpen, setIsOpen] = useState(false);
+//   const dropdownRef = useRef<HTMLDivElement>(null);
+
+//   useOutsideClick(dropdownRef, () => {
+//     setIsOpen(false);
+//   });
+
+//   return (
+//     <div>
+//       <button onClick={() => setIsOpen((prev) => !prev)}>Toggle Dropdown</button>
+//       {isOpen && (
+//         <div ref={dropdownRef} className="dropdown">
+//           <p>Dropdown Content</p>
+//         </div>
+//       )}
+//     </div>
+//   );
+// };
+
+// export default Dropdown;

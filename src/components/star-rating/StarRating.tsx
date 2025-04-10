@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import useLocalStorage from "../../components/custom-Hooks/useLocalStorage";
 import "./starRating.scss";
 
 type StarRatingProps = {
@@ -7,22 +8,7 @@ type StarRatingProps = {
 
 const StarRating: React.FC<StarRatingProps> = ({ numStars = 5 }) => {
   const [hoveredStar, setHoveredStar] = useState<number | null>(null); // Tracks the star being hovered
-  const [selectedStar, setSelectedStar] = useState<number | null>(null); // Tracks the star being selected
-
-  // Load the selected star from local storage on component mount
-  useEffect(() => {
-    const savedRating = localStorage.getItem("selectedStar");
-    if (savedRating) {
-      setSelectedStar(Number(savedRating)); // Parse and set the saved rating
-    }
-  }, []);
-
-  // Save the selected star to local storage whenever it changes
-  useEffect(() => {
-    if (selectedStar !== null) {
-      localStorage.setItem("selectedStar", selectedStar.toString());
-    }
-  }, [selectedStar]);
+  const [selectedStar, setSelectedStar] = useLocalStorage<number | null>("selectedStar", null); // Custom hook to manage local storage
 
   const handleMouseEnter = (index: number) => {
     setHoveredStar(index); // Set the hovered star index

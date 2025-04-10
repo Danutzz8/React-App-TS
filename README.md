@@ -3,6 +3,8 @@ To Start it
 npm install
 npm run dev
 
+Added custom hooks
+
 used :
 https://stevekinney.github.io/react-and-typescript/sandboxes
 https://github.com/sangammukherjee/weather-app-25-reactjs-interview-projects

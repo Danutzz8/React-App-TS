@@ -83,7 +83,7 @@ function Index() {
           <Link to="/ticTactToe">X & O</Link>
         </li>
         <li>
-          <Link to="/testFile">NExt</Link>
+          <Link to="/customHooks">Custom Hooks</Link>
         </li>
         <li>
           <Link to="/testFile">NExt</Link>
