@@ -86,6 +86,9 @@ function Index() {
           <Link to="/customHooks">Custom Hooks</Link>
         </li>
         <li>
+          <Link to="/weatherApp">Weather App</Link>
+        </li>
+        <li>
           <Link to="/testFile">NExt</Link>
         </li>
       </ul>
