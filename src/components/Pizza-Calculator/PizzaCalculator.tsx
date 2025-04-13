@@ -1,6 +1,6 @@
 import React from "react";
 import { Dispatch } from 'react';
-import './PizzaCalculator.scss';
+import './pizzaCalculator.scss';
 import type {  PizzaState, PizzaAction } from '../../utils/pizzaCalculatorHelper';
 
 const PizzaCalculator = ({
