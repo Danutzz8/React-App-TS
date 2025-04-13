@@ -33,7 +33,7 @@
   "main": "vite.config.js",
   "scripts": {
     "coverage": "vitest --coverage",
-    "build": "vite build",
+    "build": "tsc -b && vite build",
     "dev": "vite",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint",
